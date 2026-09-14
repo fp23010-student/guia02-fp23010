@@ -1,132 +1,214 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>MiniSalud - Expediente Clínica</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
 
-        <header>
-            <div class="logo">
-                <span>Mini</span><span>Salud</span>
-            </div>
-            <nav>
-                <a href="#inicio">Inicio</a>
-                <a href="#funciones">Funciones</a>
-                <a href="#ventajas">Ventajas</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
-            <button>Entrar</button>
-        </header>
+<head>
+    <link rel="stylesheet" href="assets/css/welcome.css">
+    <title>Galeno | Expediente Clínico</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+</head>
 
-        <main>
+<body>
 
-            <section id="hero">
+    <header class="navbar">
+        <a href="#inicio" class="logo">
+            <span>▣</span> GalenoSV
+        </a>
 
-                <h1>Tu <strong>Expediente Clínico</strong> MiniSalud, el mejor de la ciudad</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#funciones">Funciones</a>
+            <a href="#ventajas">Ventajas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <a href="#contacto" class="btn-login">Acceder</a>
+    </header>
+
+    <!-- SECCIÓN PRINCIPAL - hero-->
+    <main>
+
+        <section id="inicio" class="hero">
+            <div class="hero-text">
+
+                <span class="tag">Sistema Médico Integral</span>
+
+                <h1>
+                    Tu Expediente
+                    <span>Clínico<br>
+                        GalenoSV</span>
+                </h1>
+
                 <p>
-                    Organiza, protege y consulta la información médica de tus pacientes
-                    desde un solo panel. Historiales, notas y diagnósticos siempre a la mano.
+                    Organiza, protege y consulta la información médica de tus pacientes desde un solo panel.
+                    Historiales, notas y diagnósticos siempre a la mano.
                 </p>
-                <div class="hero-actions">
-                    <button>Comenzar ahora →</button>
-                    <button>Ver detalles</button>
+
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn-primary">
+                        Comenzar Ahora →
+                    </a>
+
+                    <a href="#funciones" class="btn-secondary">
+                        Conocer más
+                    </a>
                 </div>
 
-                <aside class="hero-card">
-                    <div class="avatar"></div>
-                    <div class="line"></div>
-                    <div class="stats">
-                        <div>
-                            <p>Expedientes</p>
-                            <h3>1,069</h3>
-                        </div>
-                        <div>
-                            <p>Citas</p>
-                            <h3>6,767</h3>
-                        </div>
-                    </div>
-                    <div class="progress-bar"></div>
-                    <div class="mini-boxes">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </aside>
-            </section>
-
-            <section id="funciones">
-                <h2>Funciones pensadas para tu clínica</h2>
-                <p>Ideal para consultorios, clínicas y hospitales que necesitan orden y rapidez.</p>
-
-                <div class="cards">
-                    <article>
-
-                        <h3>Pacientes</h3>
-                        <p>Crea y administra fichas completas: datos personales, alergias y antecedentes médicos.</p>
-                    </article>
-
-                    <article>
-
-                        <h3>Historiales</h3>
-                        <p>Revisa y edita evoluciones clínicas, diagnósticos y tratamientos anteriores.</p>
-                    </article>
-
-                    <article>
-
-                        <h3>Citas médicas</h3>
-                        <p>Agenda, reprograma y envía recordatorios automáticos a tus pacientes.</p>
-                    </article>
-
-                    <article>
-
-                        <h3>Privacidad</h3>
-                        <p>Control de accesos, respaldo y cumplimiento normativo para datos sensibles.</p>
-                    </article>
-                </div>
-            </section>
-
-            <section id="ventajas">
-                <div class="ventajas-texto">
-                    <h2>Haz tu consulta más eficiente</h2>
-                    <ul>
-                        <li>✔ Consulta instantánea del historial del paciente</li>
-                        <li>✔ Menos papeleo, menos errores humanos</li>
-                        <li>✔ Seguimiento continuo entre visitas</li>
-                        <li>✔ Estadísticas y reportes actualizados</li>
-                        <li>✔ Diseño simple, sin curva de aprendizaje</li>
-                    </ul>
-                </div>
-
-                <blockquote>
-                    <p>"La digitalización del expediente clínico transforma la manera en que cuidamos a nuestros pacientes."</p>
-                    <cite>— Equipo MediSalud</cite>
-                </blockquote>
-            </section>
-
-            <section id="contacto">
-                <h2>¿Empezamos?</h2>
-                <p>Ingresa con tu cuenta o pide una demostración personalizada.</p>
-                <div class="cta-actions">
-                    <button>Ingresar</button>
-                    <button>Pedir demo</button>
-                </div>
-            </section>
-
-        </main>
-
-        <footer>
-            <div class="footer-logo">
-                <span>Expediente</span><span>MediSalud</span>
             </div>
-            <p>Plataforma de administración de historiales médicos.</p>
-            <nav>
-                <a href="#">Aviso de privacidad</a>
-                <a href="#">Condiciones</a>
-                <a href="#">Ayuda</a>
-            </nav>
-            <small>© 2026 MiniSalud. Todos los derechos reservados.</small>
-        </footer>
 
-    </body>
+            <!-- TARJETA ILUSTRATIVA - dashboard-->
+            <div class="dashboard">
+                <div class="profile-circle"></div>
+
+                <div class="fake-lines">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="dashboard-info">
+                    <div>
+                        <small>Expedientes</small>
+                        <strong>1,069</strong>
+                    </div>
+
+                    <div>
+                        <small>Citas</small>
+                        <strong>6,767</strong>
+                    </div>
+                </div>
+
+                <div class="progress"></div>
+
+                <div class="dashboard-boxes">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FUNCIONES -features-->
+        <section id="funciones" class="features">
+
+            <div class="section-title">
+                <h2>Funciones pensadas para tu clínica</h2>
+
+                <p>
+                    Ideal para consultorios, clínicas y hospitales que necesitan orden y rapidez.
+                </p>
+            </div>
+
+            <div class="cards">
+
+                <article class="card">
+                    <div class="card-icon">♙</div>
+                    <h3>Gestión de pacientes</h3>
+                    <p>
+                        Crea y administra fichas completas: datos personales, alergias y antecedentes médicos.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">▤</div>
+                    <h3>Historial clínico</h3>
+                    <p>
+                        Revisa y edita evoluciones clínicas, diagnósticos y tratamientos anteriores.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">▣</div>
+                    <h3>Agenda de citas</h3>
+                    <p>
+                        Agenda, reprograma y envía recordatorios automáticos a tus pacientes.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">♢</div>
+                    <h3>Seguridad y privacidad</h3>
+                    <p>
+                        Control de accesos, respaldo y cumplimiento normativo para datos sensibles.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- VENTAJAS - advantages-->
+        <section id="ventajas" class="advantages">
+
+            <div class="advantages-text">
+                <h2>Haz tu consulta más eficiente</h2>
+
+                <ul>
+                    <li>Consulta instantánea del historial del paciente</li>
+                    <li>Menos papeleo, menos errores humanos</li>
+                    <li>Seguimiento continuo entre visitas</li>
+                    <li>Estadísticas y reportes actualizados</li>
+                    <li>Diseño simple, sin curva de aprendizaje</li>
+                </ul>
+            </div>
+
+            <div class="testimonial">
+                <p>
+                    "La digitalización del expediente clínico transforma la manera en que cuidamos a nuestros
+                    pacientes."
+                </p>
+
+                <small>— Equipo de GalenoSV</small>
+            </div>
+
+        </section>
+
+        <!-- CONTACTO - cta-->
+        <section id="contacto" class="cta">
+            <h2>¿Empezamos?</h2>
+
+            <p>
+                Ingresa con tu cuenta o pide una demostración personalizada.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#" class="btn-outline">Iniciar sesión</a>
+                <a href="#" class="btn-outline">Solicitar demo</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA - footer-->
+    <footer>
+        <section>
+            <div class="footer-content">
+                <ul>
+                    <div class="footer-logo">▣ ExpedienteClínico</div>
+
+                    <p>Plataforma de administración de historiales médicos.</p>
+                    <p>Aviso de privacidad Condiciones Ayuda</p>
+                    <div class="footer-links">
+                        <a href="#">Privacidad</a>
+                        <a href="#">Términos</a>
+                        <a href="#">Soporte</a>
+                    </div>
+
+                    <small>© 2026 MiniSalud. Todos los derechos reservados.</small>
+                </ul>
+                <div class="footer-lang">
+                    <label for="language">Idioma:</label>
+                    <select id="language"> <!-- este apartado es puramente visual por que me dio pereza traducir la pagina -->
+                        <option value="es">Español</option>
+                        <option value="en">Inglés</option>
+                    </select>
+                </div>
+            </div>
+
+
+        </section>
+
+    </footer>
+
+</body>
+
 </html>
