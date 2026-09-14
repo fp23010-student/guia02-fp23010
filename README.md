@@ -1,5 +1,5 @@
 # Programación para Internet GT02-2026
-## SOLUCION GUIA #1
+## SOLUCION GUIA #2
 
 Integrantes
 - Ronald Hamilton Figueroa Patriz,      FP23010
