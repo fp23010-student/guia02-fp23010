@@ -524,8 +524,15 @@ footer small {
     gap: 50px;
     
 }
-.footer-content > ul {
+.footer-info {
     grid-column: 2;
+    justify-self: end;
+    max-width: 200px;
+    padding: 1px;
+    border-radius: 9px;
+}
+.footer-links {
+    grid-column: 1;
     justify-self: center;
     list-style: none;
     text-align: center;
